@@ -1,15 +1,14 @@
-.checkboxstyler{
-	position: relative;
-	width: 16px;
-	height: 16px;
-	background: #fff;
-	display: inline-block;
-	-webkit-box-shadow:0 2px 4px #8d7c51;-moz-box-shadow:0 2px 4px #8d7c51;box-shadow:0 2px 4px #8d7c51;
-	cursor: pointer;
+.checkboxstyler {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    display: inline-block;
+    -webkit-box-shadow:0 2px 4px #8d7c51;
+    -moz-box-shadow:0 2px 4px #8d7c51;
+    box-shadow:0 2px 4px #8d7c51;
+    cursor: pointer;
 }
-.noselect{
-
-}
-.yesselect{
-	background: url('images/yes.jpg') no-repeat;
+.checkboxstyler.yesselect {
+    background: url('images/checkboxstyler-yes.jpg') no-repeat;
 }
